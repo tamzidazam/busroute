@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirect Page</title>
+    <script>
+        if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+            window.location.href = 'mobile-page.html'; // Replace with the mobile page URL
+        } else {
+            window.location.href = 'desktop-page.html'; // Replace with the desktop page URL
+        }
+    </script>
+</head>
+<body>
+    <!-- Optional: You can include a message or additional content here -->
+</body>
+</html>
